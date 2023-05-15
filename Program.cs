@@ -20,7 +20,7 @@ if (fabricante == "Ford")
 }
 else if (fabricante == "Toyota")
 {
-    Write("Introduce número de puertas:");
+    Write("Introduce número de puertas: ");
     int numeroPuertas = 0;
     Int32.TryParse(ReadLine(), out numeroPuertas);
 
@@ -28,7 +28,7 @@ else if (fabricante == "Toyota")
 }
 else if (fabricante == "Honda")
 {
-    Write("Introduce el tipo de transmision");
+    Write("Introduce el tipo de transmision: ");
     string? tipoTransmision = ReadLine();
     coche = new Honda(fabricante, anyo, modelo!, tipoTransmision!);
 }
